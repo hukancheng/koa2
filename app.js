@@ -8,7 +8,7 @@ var config = require('./config/default.js')
 const stc = require('koa-static')
 var cors = require('koa2-cors');
 var path = require('path');
-//实例化1
+//实例化12
 var app = new Koa();
 app.use(cors());
 
