@@ -8,10 +8,10 @@ var config = require('./config/default.js')
 const stc = require('koa-static')
 var cors = require('koa2-cors');
 var path = require('path');
-//实例化12222
+//实例化12222311
 var app = new Koa();
 app.use(cors());
-console.log('构建jenkins')
+console.log('构建jenkins1')
 var router = new Router();
 
 //数据库
