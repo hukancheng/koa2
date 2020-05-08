@@ -11,7 +11,7 @@ var path = require('path');
 //实例化12222
 var app = new Koa();
 app.use(cors());
-
+console.log('构建jenkins')
 var router = new Router();
 
 //数据库
