@@ -8,15 +8,13 @@ var config = require('./config/default.js')
 const stc = require('koa-static')
 var cors = require('koa2-cors');
 var path = require('path');
-//实例化12222311
+//实例化1
 var app = new Koa();
 app.use(cors());
-console.log('构建jenkins1')
-//这是回滚1
 
 var router = new Router();
 
-//数据库22
+//数据库
 // var mysql = require('mysql');
 // var connection = mysql.createConnection({...config});
 // console.log(config.user)
