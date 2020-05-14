@@ -14,7 +14,7 @@ app.use(cors());
 console.log('构建jenkins1')
 var router = new Router();
 
-//数据库
+//数据库22
 // var mysql = require('mysql');
 // var connection = mysql.createConnection({...config});
 // console.log(config.user)
