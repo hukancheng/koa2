@@ -36,7 +36,10 @@ var router = new Router();
 
 //配置路由
 router.get('/',async (ctx)=>{
-    ctx.body = '是一个首页ma';
+  let params = {
+    a: 1
+  }
+    ctx.response = params;
 })
 
 
@@ -46,8 +49,19 @@ router.get('/news',async (ctx)=>{
 /*启动路由*/
 router.get('/list/:name',async (ctx)=>{
    ctx.body = {
+     code:1001,
     name: ctx.params.name,
-    time: Date.now()
+    time: Date.now(),
+    data: [
+      {
+        id:1,
+        test:'这是测试'
+      },
+      {
+        id:1,
+        test:'这是测试'
+      },
+    ]
    }
 })
 
